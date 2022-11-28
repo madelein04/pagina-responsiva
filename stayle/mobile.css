@@ -1,0 +1,148 @@
+.display1 {
+    font-size: 50px;
+    color: white;
+
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 1 px ;
+}
+
+.btn-outline{
+    border:2px solid rgb(31, 32, 31) ;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.btn-outline:hover {
+    background: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.btn-link { 
+    color: darkgray;
+    font-size: 14px ;
+    text-decoration: none;
+    font-weight:400 ;
+    letter-spacing: 1px;
+
+}
+
+#mainheader {
+    background: url(/imagen/so.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+#navbar{
+    height: 120px;
+}
+
+#navbar .container{
+    display: flex;
+    justify-content: center;
+
+}
+#navbar a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#navbar ul{
+    display:flex ;
+    align-items:center;
+}
+
+#navbar ul li {
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 30px;
+ 
+}
+
+#navbar ul li :hover{
+    color: rgb(142, 117, 167);
+}
+
+#showcase {
+    text-align: center;
+    padding-top: 50px ;
+}
+
+#work{
+    padding: 80px 0;
+}
+#work h2{
+    text-align: center;
+}
+#work .work-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#work .work-row-box{
+    border: 2px solid rgb(77, 74, 74);
+    margin: 10px ;
+    padding: 30px 30px ;
+    width: 35vw;
+}
+
+
+#work .work-row-box p{
+    padding-bottom: 17px;
+}
+
+#about{
+    padding: 80px 0;
+    display: flex;
+}
+
+#about img{
+    width: 60vw;
+    height: 80vh;
+}
+
+#about .about-text{
+    padding: 60px 50px;
+}
+.large{
+    padding-bottom: 40px;
+}
+
+#contact{
+    padding:40px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #contact .contact-info{
+    padding: 10px;
+    margin: 20px;
+}  
+
+#contact .contact-social{
+    height: 50px;
+    margin: 10px;
+    text-align: end;
+} */
+
+#mainfooter{
+    text-align: center;
+}
+

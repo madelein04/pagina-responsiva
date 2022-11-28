@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Roboto+Condensed&display=swap');
+
+/* 
+
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #000;
+    color: white;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+@media (max-width:775px) {
+    h4 {
+        font-size: 20px;
+    }
+}
+
+
+h1,
+h2,
+h4 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+
+@media (max-width:775px) {
+    p {
+        font-size: 15px;
+        margin: 10px 0;
+        line-height: 1.5em;
+        font-weight: 200;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid #1c1c1c;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.large {
+    font-size: 18px;
+}
+
+.display1 {
+    font-size: 100px;
+    color: white;
+}
+
+@media (max-width:1100px) {
+    .display1 {
+        font-size: 80px;
+        color: white;
+    }
+
+}
+
+@media (max-width:775px) {
+    .display1 {
+        font-size: 60px;
+        color: white;
+    }
+
+}
+
+@media (max-width:600px) {
+    .display1 {
+        font-size: 40px;
+        color: white;
+        padding: 0;
+    }
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 1 px;
+}
+
+.btn-outline {
+    border: 2px solid rgb(31, 32, 31);
+    color: white;
+    border-radius: 10px;
+
+}
+
+.btn-outline:hover {
+    background: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.btn-link {
+    color: darkgray;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
+#mainheader {
+    background: url(/imagen/so.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.9;
+
+}
+
+@media (max-width:775px) {
+    #mainheader {
+        background: url(/imagen/so.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+}
+
+#navbar {
+    height: 120px;
+}
+
+#navbar .container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#navbar a {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+@media (max-width:775px) {
+    #navbar ul li {
+        height: 10px;
+        margin-left: 15px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
+
+#navbar ul li :hover {
+    color: rgb(142, 117, 167);
+}
+
+#showcase {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#work {
+    padding: 80px 0;
+}
+
+@media (max-width:775px) {
+    #work {
+        padding: 40px 0;
+    }
+
+}
+
+#work h2 {
+    text-align: center;
+}
+
+@media (max-width:775px) {
+    #work h2 {
+        text-align: center;
+        font-size: 25px;
+        margin: 25px;
+    }
+
+}
+
+#work .work-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:775px) {
+    #work .work-row {
+        margin: 10px;
+        padding: 0px 30px;
+        flex-wrap: wrap;
+    }
+}
+
+#work .work-row-box {
+    border: 2px solid rgb(77, 74, 74);
+    margin: 10px;
+    padding: 30px 30px;
+    width: 35vw;
+}
+
+@media (max-width:775px) {
+    #work .work-row-box {
+        width: 80vw;
+        margin: 10px;
+        padding: 30px 30px;
+    }
+}
+
+
+#work .work-row-box p {
+    padding-bottom: 17px;
+}
+
+#about {
+    padding: 80px 0;
+    display: flex;
+}
+
+#about img {
+    width: 60vw;
+    height: 80vh;
+}
+
+@media (max-width:775px) {
+    #about img {
+        width: 40vw;
+        height: 80v;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:350px) {
+    #about img {
+        width: 0vw;
+        height: 0vh;
+    }
+}
+
+
+#about .about-text {
+    padding: 60px 50px;
+}
+
+@media (max-width:775px) {
+    .h2 {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:650px) {
+    #about .about-text {
+        padding: 15px 12px;
+    }
+
+}
+
+.large {
+    padding-bottom: 40px;
+}
+
+@media (max-width:775px) {
+    .large {
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width:600px) {
+    .large {
+        padding-bottom: 5px;
+    }
+}
+
+#contact {
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:775px) {
+    #contact {
+        padding: 40px 5px 40px 15px;
+        margin: 0px;
+    }
+
+    #contact .contact-info {
+        padding-right: 40px;
+    }
+}
+
+@media (max-width:480px) {
+    #contact {
+        padding: 5px 0px 5px 5px;
+        margin: 0px;
+    }
+
+    #contact .contact-info {
+        padding-right: 5px;
+    }
+}
+
+
+@media (max-width:460px) {
+    #contact {
+        padding: 5px 0px 5px 5px;
+        margin: 0px;
+    }
+
+    #contact .contact-info {
+        padding-right: 105px;
+    }
+}
+
+@media (max-width:430px) {
+    #contact {
+        padding: 5px 0px 5px 5px;
+        margin: 0px;
+    }
+
+    #contact .contact-info {
+        padding-right: 68px;
+    }
+}
+
+@media (max-width:400px) {
+    #contact {
+        padding: 5px 0px 5px 5px;
+        margin: 0px;
+    }
+
+    #contact .contact-info {
+        padding-right: 45px;
+    }
+}
+
+@media (max-width:375px) {
+    #contact {
+        padding: 5px 0px 5px 5px;
+        margin: 0px;
+    }
+
+    #contact .contact-info {
+        padding-right: 25px;
+    }
+}
+
+@media (max-width:350px) {
+    #contact {
+        padding: 5px 0px 5px 5px;
+        margin: 0px;
+    }
+
+    #contact .contact-info {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:325px) {
+    #contact {
+        padding: 5px 0px 5px 5px;
+        margin: 0px;
+    }
+
+    #contact .contact-info {
+        padding-right: 15px;
+        margin-top: 80px;
+    }
+}
+
+/* #contact .contact-info{
+    padding: 10px;
+    margin: 20px;
+}  
+
+#contact .contact-social{
+    height: 50px;
+    margin: 10px;
+    text-align: end;
+} */
+
+#mainfooter {
+    text-align: center;
+}
+
+@media (max-width:774px) {
+    .mainfooter {
+        font-size: 12px;
+    }
+
+}
